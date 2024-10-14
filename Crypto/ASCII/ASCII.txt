@@ -1,3 +1,0 @@
-ASCII is a 7-bit encoding standard which allows the representation of text using the integers 0-127
-
-In python we can use chr() to convert an ASCII ordinal number to character(the ord() do the opposite)

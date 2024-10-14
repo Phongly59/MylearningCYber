@@ -1,8 +1,0 @@
-when we encrypt something , the resulting ciphertext commonly has bytes which not printable ASCII characters. if we want to share our encrypted data, it's common to encode it into something more user-friendly and portable across different systems.
-
-
-Hexadecinal can be used in such a way to represent ASCII strings. First each letter is converted to an or-dinal number according to ASCII table . the decimal numbers are converted to base-16 numbers, otherwise known as hexadecimal. The number can combined to-gether into one long hex string.
-
-In python , we can use bytes.fromhex() function can convert hex to bytes.
-
-the .hex() instance method can be called on byte string to get hex representation
